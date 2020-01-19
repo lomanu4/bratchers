@@ -1,0 +1,517 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 646
+  ClientWidth = 1065
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object TMSFMXLiveGrid1: TTMSFMXLiveGrid
+    DisableFocusEffect = False
+    Position.X = 16.000000000000000000
+    Position.Y = 32.000000000000000000
+    TabOrder = 0
+    Size.Width = 753.000000000000000000
+    Size.Height = 201.000000000000000000
+    Size.PlatformDefault = False
+    ColumnCount = 11
+    RowCount = 1
+    Options.Editing.CalcFormat = '%g'
+    Options.Grouping.CalcFormat = '%g'
+    Options.Grouping.GroupCountFormat = '(%d)'
+    Options.IO.XMLEncoding = 'ISO-8859-1'
+    Options.Mouse.TouchScrollingSensitivity = 0.100000001490116100
+    Options.Printing.PageNumberFormat = '%g'
+    Options.Styling.AdaptToStyle = True
+    AdaptToStyle = True
+    Version = '2.3.2.7'
+    Fill.Kind = Solid
+    Stroke.Kind = Solid
+    TopRow = 1
+    LeftCol = 1
+    Columns = <
+      item
+        Color = claNull
+        Editor = etEdit
+        Fixed = False
+        FixedFont.StyleExt = {00070000000000000004000000}
+        FixedFontColor = claBlack
+        FontColor = claBlack
+        ID = ''
+        Width = 68.000000000000000000
+      end
+      item
+        Color = claNull
+        Editor = etEdit
+        Fixed = False
+        FixedFont.StyleExt = {00070000000000000004000000}
+        FixedFontColor = claBlack
+        FontColor = claBlack
+        ID = ''
+        Width = 68.000000000000000000
+      end
+      item
+        Color = claNull
+        Editor = etEdit
+        Fixed = False
+        FixedFont.StyleExt = {00070000000000000004000000}
+        FixedFontColor = claBlack
+        FontColor = claBlack
+        ID = ''
+        Width = 68.000000000000000000
+      end
+      item
+        Color = claNull
+        Editor = etEdit
+        Fixed = False
+        FixedFont.StyleExt = {00070000000000000004000000}
+        FixedFontColor = claBlack
+        FontColor = claBlack
+        ID = ''
+        Width = 68.000000000000000000
+      end
+      item
+        Color = claNull
+        Editor = etEdit
+        Fixed = False
+        FixedFont.StyleExt = {00070000000000000004000000}
+        FixedFontColor = claBlack
+        FontColor = claBlack
+        ID = ''
+        Width = 68.000000000000000000
+      end
+      item
+        Color = claNull
+        Editor = etEdit
+        Fixed = False
+        FixedFont.StyleExt = {00070000000000000004000000}
+        FixedFontColor = claBlack
+        FontColor = claBlack
+        ID = ''
+        Width = 68.000000000000000000
+      end
+      item
+        Color = claNull
+        Editor = etEdit
+        Fixed = False
+        FixedFont.StyleExt = {00070000000000000004000000}
+        FixedFontColor = claBlack
+        FontColor = claBlack
+        ID = ''
+        Width = 68.000000000000000000
+      end
+      item
+        Color = claNull
+        Editor = etEdit
+        Fixed = False
+        FixedFont.StyleExt = {00070000000000000004000000}
+        FixedFontColor = claBlack
+        FontColor = claBlack
+        ID = ''
+        Width = 68.000000000000000000
+      end
+      item
+        Color = claNull
+        Editor = etEdit
+        Fixed = False
+        FixedFont.StyleExt = {00070000000000000004000000}
+        FixedFontColor = claBlack
+        FontColor = claBlack
+        ID = ''
+        Width = 68.000000000000000000
+      end
+      item
+        Color = claNull
+        Editor = etEdit
+        Fixed = False
+        FixedFont.StyleExt = {00070000000000000004000000}
+        FixedFontColor = claBlack
+        FontColor = claBlack
+        ID = ''
+        Width = 68.000000000000000000
+      end
+      item
+        Color = claNull
+        Editor = etEdit
+        Fixed = False
+        FixedFont.StyleExt = {00070000000000000004000000}
+        FixedFontColor = claBlack
+        FontColor = claBlack
+        ID = ''
+        Width = 68.000000000000000000
+      end>
+  end
+  object Button1: TButton
+    Position.X = 664.000000000000000000
+    Position.Y = 280.000000000000000000
+    TabOrder = 14
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Position.X = 872.000000000000000000
+    Position.Y = 272.000000000000000000
+    TabOrder = 32
+    Text = 'Button2'
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Position.X = 560.000000000000000000
+    Position.Y = 280.000000000000000000
+    TabOrder = 34
+    Text = 'Button3'
+    OnClick = Button3Click
+  end
+  object StringGrid1: TStringGrid
+    CanFocus = True
+    ClipChildren = True
+    Position.X = 24.000000000000000000
+    Position.Y = 336.000000000000000000
+    Size.Width = 745.000000000000000000
+    Size.Height = 305.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'gridstyle'
+    TabOrder = 35
+    RowCount = 0
+    Options = [Editing, ColumnResize, ColumnMove, ColLines, RowLines, RowSelect, Tabs, Header, HeaderClick, AutoDisplacement]
+    Viewport.Width = 741.000000000000000000
+    Viewport.Height = 280.000000000000000000
+  end
+  object AniIndicator1: TAniIndicator
+    Position.X = 440.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 113.000000000000000000
+    Size.PlatformDefault = False
+    Style = Circular
+    Visible = False
+  end
+  object Button4: TButton
+    Position.X = 856.000000000000000000
+    Position.Y = 448.000000000000000000
+    TabOrder = 60
+    Text = 'Button4'
+    OnClick = Button4Click
+  end
+  object RESTClient1: TRESTClient
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'utf-8, *;q=0.8'
+    BaseURL = 'https://lucera.myds.me/loman/dati.php'
+    Params = <>
+    RaiseExceptionOn500 = False
+    Left = 792
+    Top = 32
+  end
+  object RESTRequest1: TRESTRequest
+    Client = RESTClient1
+    Params = <>
+    Response = RESTResponse1
+    SynchronizedEvents = False
+    Left = 792
+    Top = 96
+  end
+  object RESTResponse1: TRESTResponse
+    ContentType = 'text/html'
+    Left = 792
+    Top = 160
+  end
+  object RESTResponseDataSetAdapter1: TRESTResponseDataSetAdapter
+    Active = True
+    Dataset = FDMemTable1
+    FieldDefs = <>
+    Response = RESTResponse1
+    Left = 792
+    Top = 216
+  end
+  object FDMemTable1: TFDMemTable
+    Active = True
+    FieldDefs = <
+      item
+        Name = 'id'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Materiale'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Descripzione'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Quantita'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Treno'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Discorta'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Commento'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Data'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Creatoda'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'Ordinato'
+        DataType = ftWideString
+        Size = 255
+      end>
+    IndexDefs = <>
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired]
+    UpdateOptions.CheckRequired = False
+    StoreDefs = True
+    Left = 792
+    Top = 288
+    object FDMemTable1id: TWideStringField
+      FieldName = 'id'
+      Size = 255
+    end
+    object FDMemTable1Materiale: TWideStringField
+      FieldName = 'Materiale'
+      Size = 255
+    end
+    object FDMemTable1Descripzione: TWideStringField
+      FieldName = 'Descripzione'
+      Size = 255
+    end
+    object FDMemTable1Quantita: TWideStringField
+      FieldName = 'Quantita'
+      Size = 255
+    end
+    object FDMemTable1Treno: TWideStringField
+      FieldName = 'Treno'
+      Size = 255
+    end
+    object FDMemTable1Discorta: TWideStringField
+      FieldName = 'Discorta'
+      Size = 255
+    end
+    object FDMemTable1Commento: TWideStringField
+      FieldName = 'Commento'
+      Size = 255
+    end
+    object FDMemTable1Data: TWideStringField
+      FieldName = 'Data'
+      Size = 255
+    end
+    object FDMemTable1Creatoda: TWideStringField
+      FieldName = 'Creatoda'
+      Size = 255
+    end
+    object FDMemTable1Ordinato: TWideStringField
+      FieldName = 'Ordinato'
+      Size = 255
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = FDMemTable1
+    ScopeMappings = <>
+    Left = 888
+    Top = 344
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = TMSFMXLiveGrid1
+      Columns = <>
+    end
+    object LinkGridToDataSourceBindSourceDB6: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB6
+      GridControl = StringGrid1
+      Columns = <>
+    end
+  end
+  object BindSourceDB2: TBindSourceDB
+    ScopeMappings = <>
+    Left = 952
+    Top = 320
+  end
+  object FDBatchMoveDataSetReader1: TFDBatchMoveDataSetReader
+    Left = 240
+    Top = 264
+  end
+  object FDPhysSQLiteDriverLink1: TFDPhysSQLiteDriverLink
+    Left = 648
+    Top = 480
+  end
+  object FDBatchMove1: TFDBatchMove
+    Reader = FDBatchMoveDataSetReader1
+    Writer = FDBatchMoveSQLWriter1
+    Mode = dmAppendUpdate
+    Mappings = <
+      item
+        SourceFieldName = 'ID'
+        DestinationFieldName = 'ID'
+      end
+      item
+        SourceFieldName = 'MATERIALE'
+        DestinationFieldName = 'MATERIALE'
+      end
+      item
+        SourceFieldName = 'DESCRIPZIONE'
+        DestinationFieldName = 'DESCRIPZIONE'
+      end
+      item
+        SourceFieldName = 'QUANTITA'
+        DestinationFieldName = 'QUANTITA'
+      end
+      item
+        SourceFieldName = 'TRENO'
+        DestinationFieldName = 'TRENO'
+      end
+      item
+        SourceFieldName = 'DISCORTA'
+        DestinationFieldName = 'DISCORTA'
+      end
+      item
+        SourceFieldName = 'COMMENTO'
+        DestinationFieldName = 'COMMENTO'
+      end
+      item
+        SourceFieldName = 'DATA'
+        DestinationFieldName = 'DATA'
+      end
+      item
+        SourceFieldName = 'CREATODA'
+        DestinationFieldName = 'CREATODA'
+      end
+      item
+        SourceFieldName = 'ORDINATO'
+        DestinationFieldName = 'ORDINATO'
+      end>
+    LogFileName = 'Data.log'
+    Left = 504
+    Top = 248
+  end
+  object FDBatchMoveSQLWriter1: TFDBatchMoveSQLWriter
+    Connection = FDConnection1
+    Left = 392
+    Top = 264
+  end
+  object FDStanStorageJSONLink1: TFDStanStorageJSONLink
+    Left = 352
+    Top = 120
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'FMX'
+    ScreenCursor = gcrAppWait
+    Left = 992
+    Top = 264
+  end
+  object BindSourceDB5: TBindSourceDB
+    ScopeMappings = <>
+    Left = 896
+    Top = 80
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=D:\Devolper\bachmover\material.db'
+      'DriverID=SQLite')
+    Connected = True
+    LoginPrompt = False
+    Left = 56
+    Top = 272
+  end
+  object FDTable1: TFDTable
+    IndexFieldNames = 'ID'
+    Connection = FDConnection1
+    UpdateOptions.UpdateTableName = 'RICHIESTA'
+    TableName = 'RICHIESTA'
+    Left = 48
+    Top = 360
+    object FDTable1ID: TFDAutoIncField
+      FieldName = 'ID'
+      Origin = 'ID'
+      ProviderFlags = [pfInWhere, pfInKey]
+      ReadOnly = True
+    end
+    object FDTable1MATERIALE: TWideMemoField
+      FieldName = 'MATERIALE'
+      Origin = 'MATERIALE'
+      BlobType = ftWideMemo
+    end
+    object FDTable1DESCRIPZIONE: TWideMemoField
+      FieldName = 'DESCRIPZIONE'
+      Origin = 'DESCRIPZIONE'
+      BlobType = ftWideMemo
+    end
+    object FDTable1QUANTITA: TWideMemoField
+      FieldName = 'QUANTITA'
+      Origin = 'QUANTITA'
+      BlobType = ftWideMemo
+    end
+    object FDTable1TRENO: TBlobField
+      FieldName = 'TRENO'
+      Origin = 'TRENO'
+    end
+    object FDTable1DISCORTA: TWideMemoField
+      FieldName = 'DISCORTA'
+      Origin = 'DISCORTA'
+      BlobType = ftWideMemo
+    end
+    object FDTable1COMMENTO: TWideMemoField
+      FieldName = 'COMMENTO'
+      Origin = 'COMMENTO'
+      BlobType = ftWideMemo
+    end
+    object FDTable1DATA: TWideMemoField
+      FieldName = 'DATA'
+      Origin = 'DATA'
+      BlobType = ftWideMemo
+    end
+    object FDTable1CREATODA: TWideMemoField
+      FieldName = 'CREATODA'
+      Origin = 'CREATODA'
+      BlobType = ftWideMemo
+    end
+    object FDTable1ORDINATO: TWideMemoField
+      FieldName = 'ORDINATO'
+      Origin = 'ORDINATO'
+      BlobType = ftWideMemo
+    end
+  end
+  object BindSourceDB6: TBindSourceDB
+    DataSet = FDTable1
+    ScopeMappings = <>
+    Left = 896
+    Top = 160
+  end
+  object BindSourceDB3: TBindSourceDB
+    ScopeMappings = <>
+    Left = 520
+    Top = 312
+  end
+end
